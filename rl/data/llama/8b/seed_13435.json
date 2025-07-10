@@ -1,0 +1,807 @@
+{
+    "seed": 13435,
+    "run_id": 9,
+    "history": [
+        {
+            "trial_num": 1,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 1,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 2,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 2,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 3,
+            "choice": 2,
+            "reward": 0,
+            "cumulative_reward": 2,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 4,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 2,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 5,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 3,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 6,
+            "choice": 2,
+            "reward": 0,
+            "cumulative_reward": 3,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 7,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 4,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 8,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 5,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 9,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 6,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 10,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 6,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 11,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 7,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 12,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 8,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 13,
+            "choice": 2,
+            "reward": 0,
+            "cumulative_reward": 8,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 14,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 9,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 15,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 10,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 16,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 11,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 17,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 12,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 18,
+            "choice": 2,
+            "reward": 0,
+            "cumulative_reward": 12,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 19,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 13,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 20,
+            "choice": 2,
+            "reward": 0,
+            "cumulative_reward": 13,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 21,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 14,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 22,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 15,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 23,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 16,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 24,
+            "choice": 2,
+            "reward": 0,
+            "cumulative_reward": 16,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 25,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 17,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 26,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 18,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 27,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 19,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 28,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 20,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 29,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 21,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 30,
+            "choice": 2,
+            "reward": 0,
+            "cumulative_reward": 21,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 31,
+            "choice": 2,
+            "reward": 0,
+            "cumulative_reward": 21,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 32,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 22,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 33,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 23,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 34,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 24,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 35,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 25,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 36,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 26,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 37,
+            "choice": 2,
+            "reward": 0,
+            "cumulative_reward": 26,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 38,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 27,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 39,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 28,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 40,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 29,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 41,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 30,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 42,
+            "choice": 2,
+            "reward": 0,
+            "cumulative_reward": 30,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 43,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 31,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 44,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 32,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 45,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 33,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 46,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 34,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 47,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 35,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 48,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 36,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 49,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 37,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 50,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 38,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 51,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 39,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 52,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 40,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 53,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 40,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 54,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 40,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 55,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 40,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 56,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 41,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 57,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 42,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 58,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 42,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 59,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 43,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 60,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 44,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 61,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 45,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 62,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 46,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 63,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 47,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 64,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 47,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 65,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 48,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 66,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 48,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 67,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 49,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 68,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 50,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 69,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 51,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 70,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 52,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 71,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 52,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 72,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 53,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 73,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 54,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 74,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 55,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 75,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 55,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 76,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 56,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 77,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 57,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 78,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 57,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 79,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 58,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 80,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 59,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 81,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 60,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 82,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 61,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 83,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 61,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 84,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 62,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 85,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 63,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 86,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 64,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 87,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 65,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 88,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 66,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 89,
+            "choice": 1,
+            "reward": 1,
+            "cumulative_reward": 67,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 90,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 68,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 91,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 69,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 92,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 70,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 93,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 71,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 94,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 71,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 95,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 71,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 96,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 71,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 97,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 72,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 98,
+            "choice": 1,
+            "reward": 0,
+            "cumulative_reward": 72,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n    \"choice\": 1\n}"
+        },
+        {
+            "trial_num": 99,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 73,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        },
+        {
+            "trial_num": 100,
+            "choice": 2,
+            "reward": 1,
+            "cumulative_reward": 74,
+            "error": "used regex fallback",
+            "response": "assistant\n\n{\n  \"choice\": 2\n}"
+        }
+    ],
+    "final_score": 74
+}
