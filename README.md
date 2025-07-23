@@ -33,4 +33,5 @@ If you have any questions about the repository, feel free to contact:
 📧 [snamazova@uni-osnabrueck.de](mailto:snamazova@uni-osnabrueck.de)
 
 **Alessandra Brondetta**
+
 📧[albrondetta@uni-osnabrueck.de](mailto:albrondetta@uni-osnabrueck.de)
