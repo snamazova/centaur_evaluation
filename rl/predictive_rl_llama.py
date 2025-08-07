@@ -10,7 +10,7 @@ import os
 
 DATA_IN_TEST = 'data/in/test_data.csv'
 
-MODEL = 'llama-70B'  # Change this to the desired model name
+MODEL = 'llama-3-8B'  # Change this to the desired model name
 DATA_FOLDER_OUT = f'data/out/predictive/{MODEL}/singles'
 
 def generate_seeds(num_seeds=20, seed=42):

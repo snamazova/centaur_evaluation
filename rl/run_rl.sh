@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=llama_70b_rl
-#SBATCH --partition=A100-80GB
+#SBATCH --job-name=llama_3b_rl_predictive
+#SBATCH --partition=A100-40GB
 #SBATCH --time=08:00:00
 #SBATCH --mem=300gb
 #SBATCH --gpus=1
@@ -20,7 +20,7 @@ srun \
  \
   bash -c "
     echo 'Activating virtual environment' &&
-    source $OLDPWD/.env/bin/activate &&
+    source ../.env/bin/activate &&
     echo 'Running script...' &&
-    python rl_llama.py
+    python predictive_rl_llama.py
   "
