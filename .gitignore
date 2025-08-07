@@ -70,3 +70,6 @@ lab/
 
 # mac os
 .DS_Store
+
+#cluster log
+slurm-*.out
