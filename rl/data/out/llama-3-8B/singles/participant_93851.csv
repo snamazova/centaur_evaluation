@@ -1,0 +1,2301 @@
+trial_num,prompt,choice,reward,cumulative_reward
+1,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 1 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,1
+2,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 2 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 1:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,0,1
+3,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 3 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 1:Choice U  → 1 points, Trial 2:Choice P  → 0 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,2
+4,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 4 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 1:Choice U  → 1 points, Trial 2:Choice P  → 0 points, Trial 3:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,3
+5,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 5 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 1:Choice U  → 1 points, Trial 2:Choice P  → 0 points, Trial 3:Choice U  → 1 points, Trial 4:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,4
+6,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 6 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 1:Choice U  → 1 points, Trial 2:Choice P  → 0 points, Trial 3:Choice U  → 1 points, Trial 4:Choice P  → 1 points, Trial 5:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,0,4
+7,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 7 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 2:Choice P  → 0 points, Trial 3:Choice U  → 1 points, Trial 4:Choice P  → 1 points, Trial 5:Choice U  → 1 points, Trial 6:Choice P  → 0 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,5
+8,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 8 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 3:Choice U  → 1 points, Trial 4:Choice P  → 1 points, Trial 5:Choice U  → 1 points, Trial 6:Choice P  → 0 points, Trial 7:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,6
+9,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 9 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 4:Choice P  → 1 points, Trial 5:Choice U  → 1 points, Trial 6:Choice P  → 0 points, Trial 7:Choice U  → 1 points, Trial 8:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,7
+10,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 10 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 5:Choice U  → 1 points, Trial 6:Choice P  → 0 points, Trial 7:Choice U  → 1 points, Trial 8:Choice U  → 1 points, Trial 9:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,0,7
+11,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 11 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 6:Choice P  → 0 points, Trial 7:Choice U  → 1 points, Trial 8:Choice U  → 1 points, Trial 9:Choice U  → 1 points, Trial 10:Choice U  → 0 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,8
+12,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 12 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 7:Choice U  → 1 points, Trial 8:Choice U  → 1 points, Trial 9:Choice U  → 1 points, Trial 10:Choice U  → 0 points, Trial 11:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,9
+13,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 13 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 8:Choice U  → 1 points, Trial 9:Choice U  → 1 points, Trial 10:Choice U  → 0 points, Trial 11:Choice U  → 1 points, Trial 12:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,10
+14,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 14 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 9:Choice U  → 1 points, Trial 10:Choice U  → 0 points, Trial 11:Choice U  → 1 points, Trial 12:Choice U  → 1 points, Trial 13:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,11
+15,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 15 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 10:Choice U  → 0 points, Trial 11:Choice U  → 1 points, Trial 12:Choice U  → 1 points, Trial 13:Choice U  → 1 points, Trial 14:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,12
+16,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 16 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 11:Choice U  → 1 points, Trial 12:Choice U  → 1 points, Trial 13:Choice U  → 1 points, Trial 14:Choice U  → 1 points, Trial 15:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,13
+17,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 17 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 12:Choice U  → 1 points, Trial 13:Choice U  → 1 points, Trial 14:Choice U  → 1 points, Trial 15:Choice U  → 1 points, Trial 16:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,14
+18,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 18 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 13:Choice U  → 1 points, Trial 14:Choice U  → 1 points, Trial 15:Choice U  → 1 points, Trial 16:Choice U  → 1 points, Trial 17:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,15
+19,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 19 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 14:Choice U  → 1 points, Trial 15:Choice U  → 1 points, Trial 16:Choice U  → 1 points, Trial 17:Choice U  → 1 points, Trial 18:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,16
+20,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 20 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 15:Choice U  → 1 points, Trial 16:Choice U  → 1 points, Trial 17:Choice U  → 1 points, Trial 18:Choice U  → 1 points, Trial 19:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,17
+21,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 21 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 16:Choice U  → 1 points, Trial 17:Choice U  → 1 points, Trial 18:Choice U  → 1 points, Trial 19:Choice U  → 1 points, Trial 20:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,18
+22,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 22 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 17:Choice U  → 1 points, Trial 18:Choice U  → 1 points, Trial 19:Choice U  → 1 points, Trial 20:Choice U  → 1 points, Trial 21:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,19
+23,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 23 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 18:Choice U  → 1 points, Trial 19:Choice U  → 1 points, Trial 20:Choice U  → 1 points, Trial 21:Choice U  → 1 points, Trial 22:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,20
+24,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 24 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 19:Choice U  → 1 points, Trial 20:Choice U  → 1 points, Trial 21:Choice U  → 1 points, Trial 22:Choice U  → 1 points, Trial 23:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,21
+25,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 25 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 20:Choice U  → 1 points, Trial 21:Choice U  → 1 points, Trial 22:Choice U  → 1 points, Trial 23:Choice U  → 1 points, Trial 24:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,22
+26,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 26 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 21:Choice U  → 1 points, Trial 22:Choice U  → 1 points, Trial 23:Choice U  → 1 points, Trial 24:Choice U  → 1 points, Trial 25:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,23
+27,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 27 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 22:Choice U  → 1 points, Trial 23:Choice U  → 1 points, Trial 24:Choice U  → 1 points, Trial 25:Choice U  → 1 points, Trial 26:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,24
+28,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 28 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 23:Choice U  → 1 points, Trial 24:Choice U  → 1 points, Trial 25:Choice U  → 1 points, Trial 26:Choice U  → 1 points, Trial 27:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,25
+29,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 29 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 24:Choice U  → 1 points, Trial 25:Choice U  → 1 points, Trial 26:Choice U  → 1 points, Trial 27:Choice U  → 1 points, Trial 28:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,26
+30,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 30 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 25:Choice U  → 1 points, Trial 26:Choice U  → 1 points, Trial 27:Choice U  → 1 points, Trial 28:Choice U  → 1 points, Trial 29:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,27
+31,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 31 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 26:Choice U  → 1 points, Trial 27:Choice U  → 1 points, Trial 28:Choice U  → 1 points, Trial 29:Choice U  → 1 points, Trial 30:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,28
+32,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 32 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 27:Choice U  → 1 points, Trial 28:Choice U  → 1 points, Trial 29:Choice U  → 1 points, Trial 30:Choice U  → 1 points, Trial 31:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,29
+33,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 33 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 28:Choice U  → 1 points, Trial 29:Choice U  → 1 points, Trial 30:Choice U  → 1 points, Trial 31:Choice U  → 1 points, Trial 32:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,30
+34,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 34 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 29:Choice U  → 1 points, Trial 30:Choice U  → 1 points, Trial 31:Choice U  → 1 points, Trial 32:Choice U  → 1 points, Trial 33:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,31
+35,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 35 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 30:Choice U  → 1 points, Trial 31:Choice U  → 1 points, Trial 32:Choice U  → 1 points, Trial 33:Choice U  → 1 points, Trial 34:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,32
+36,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 36 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 31:Choice U  → 1 points, Trial 32:Choice U  → 1 points, Trial 33:Choice U  → 1 points, Trial 34:Choice U  → 1 points, Trial 35:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,33
+37,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 37 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 32:Choice U  → 1 points, Trial 33:Choice U  → 1 points, Trial 34:Choice U  → 1 points, Trial 35:Choice U  → 1 points, Trial 36:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,34
+38,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 38 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 33:Choice U  → 1 points, Trial 34:Choice U  → 1 points, Trial 35:Choice U  → 1 points, Trial 36:Choice U  → 1 points, Trial 37:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,35
+39,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 39 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 34:Choice U  → 1 points, Trial 35:Choice U  → 1 points, Trial 36:Choice U  → 1 points, Trial 37:Choice U  → 1 points, Trial 38:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,36
+40,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 40 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 35:Choice U  → 1 points, Trial 36:Choice U  → 1 points, Trial 37:Choice U  → 1 points, Trial 38:Choice U  → 1 points, Trial 39:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,0,36
+41,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 41 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 36:Choice U  → 1 points, Trial 37:Choice U  → 1 points, Trial 38:Choice U  → 1 points, Trial 39:Choice U  → 1 points, Trial 40:Choice P  → 0 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,37
+42,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 42 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 37:Choice U  → 1 points, Trial 38:Choice U  → 1 points, Trial 39:Choice U  → 1 points, Trial 40:Choice P  → 0 points, Trial 41:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,38
+43,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 43 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 38:Choice U  → 1 points, Trial 39:Choice U  → 1 points, Trial 40:Choice P  → 0 points, Trial 41:Choice U  → 1 points, Trial 42:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,39
+44,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 44 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 39:Choice U  → 1 points, Trial 40:Choice P  → 0 points, Trial 41:Choice U  → 1 points, Trial 42:Choice U  → 1 points, Trial 43:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,40
+45,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 45 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 40:Choice P  → 0 points, Trial 41:Choice U  → 1 points, Trial 42:Choice U  → 1 points, Trial 43:Choice U  → 1 points, Trial 44:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,41
+46,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 46 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 41:Choice U  → 1 points, Trial 42:Choice U  → 1 points, Trial 43:Choice U  → 1 points, Trial 44:Choice U  → 1 points, Trial 45:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,42
+47,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 47 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 42:Choice U  → 1 points, Trial 43:Choice U  → 1 points, Trial 44:Choice U  → 1 points, Trial 45:Choice U  → 1 points, Trial 46:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,43
+48,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 48 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 43:Choice U  → 1 points, Trial 44:Choice U  → 1 points, Trial 45:Choice U  → 1 points, Trial 46:Choice U  → 1 points, Trial 47:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,44
+49,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 49 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 44:Choice U  → 1 points, Trial 45:Choice U  → 1 points, Trial 46:Choice U  → 1 points, Trial 47:Choice U  → 1 points, Trial 48:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,45
+50,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 50 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 45:Choice U  → 1 points, Trial 46:Choice U  → 1 points, Trial 47:Choice U  → 1 points, Trial 48:Choice U  → 1 points, Trial 49:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,46
+51,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 51 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 46:Choice U  → 1 points, Trial 47:Choice U  → 1 points, Trial 48:Choice U  → 1 points, Trial 49:Choice U  → 1 points, Trial 50:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,47
+52,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 52 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 47:Choice U  → 1 points, Trial 48:Choice U  → 1 points, Trial 49:Choice U  → 1 points, Trial 50:Choice U  → 1 points, Trial 51:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,1,48
+53,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 53 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 48:Choice U  → 1 points, Trial 49:Choice U  → 1 points, Trial 50:Choice U  → 1 points, Trial 51:Choice U  → 1 points, Trial 52:Choice U  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,0,48
+54,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 54 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 49:Choice U  → 1 points, Trial 50:Choice U  → 1 points, Trial 51:Choice U  → 1 points, Trial 52:Choice U  → 1 points, Trial 53:Choice U  → 0 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",U,0,48
+55,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 55 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 50:Choice U  → 1 points, Trial 51:Choice U  → 1 points, Trial 52:Choice U  → 1 points, Trial 53:Choice U  → 0 points, Trial 54:Choice U  → 0 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,49
+56,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 56 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 51:Choice U  → 1 points, Trial 52:Choice U  → 1 points, Trial 53:Choice U  → 0 points, Trial 54:Choice U  → 0 points, Trial 55:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,50
+57,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 57 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 52:Choice U  → 1 points, Trial 53:Choice U  → 0 points, Trial 54:Choice U  → 0 points, Trial 55:Choice P  → 1 points, Trial 56:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,51
+58,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 58 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 53:Choice U  → 0 points, Trial 54:Choice U  → 0 points, Trial 55:Choice P  → 1 points, Trial 56:Choice P  → 1 points, Trial 57:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,52
+59,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 59 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 54:Choice U  → 0 points, Trial 55:Choice P  → 1 points, Trial 56:Choice P  → 1 points, Trial 57:Choice P  → 1 points, Trial 58:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,53
+60,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 60 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 55:Choice P  → 1 points, Trial 56:Choice P  → 1 points, Trial 57:Choice P  → 1 points, Trial 58:Choice P  → 1 points, Trial 59:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,54
+61,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 61 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 56:Choice P  → 1 points, Trial 57:Choice P  → 1 points, Trial 58:Choice P  → 1 points, Trial 59:Choice P  → 1 points, Trial 60:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,55
+62,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 62 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 57:Choice P  → 1 points, Trial 58:Choice P  → 1 points, Trial 59:Choice P  → 1 points, Trial 60:Choice P  → 1 points, Trial 61:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,56
+63,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 63 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 58:Choice P  → 1 points, Trial 59:Choice P  → 1 points, Trial 60:Choice P  → 1 points, Trial 61:Choice P  → 1 points, Trial 62:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,57
+64,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 64 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 59:Choice P  → 1 points, Trial 60:Choice P  → 1 points, Trial 61:Choice P  → 1 points, Trial 62:Choice P  → 1 points, Trial 63:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,58
+65,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 65 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 60:Choice P  → 1 points, Trial 61:Choice P  → 1 points, Trial 62:Choice P  → 1 points, Trial 63:Choice P  → 1 points, Trial 64:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,59
+66,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 66 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 61:Choice P  → 1 points, Trial 62:Choice P  → 1 points, Trial 63:Choice P  → 1 points, Trial 64:Choice P  → 1 points, Trial 65:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,60
+67,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 67 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 62:Choice P  → 1 points, Trial 63:Choice P  → 1 points, Trial 64:Choice P  → 1 points, Trial 65:Choice P  → 1 points, Trial 66:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,61
+68,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 68 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 63:Choice P  → 1 points, Trial 64:Choice P  → 1 points, Trial 65:Choice P  → 1 points, Trial 66:Choice P  → 1 points, Trial 67:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,62
+69,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 69 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 64:Choice P  → 1 points, Trial 65:Choice P  → 1 points, Trial 66:Choice P  → 1 points, Trial 67:Choice P  → 1 points, Trial 68:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,63
+70,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 70 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 65:Choice P  → 1 points, Trial 66:Choice P  → 1 points, Trial 67:Choice P  → 1 points, Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,64
+71,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 71 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 66:Choice P  → 1 points, Trial 67:Choice P  → 1 points, Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, Trial 70:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,65
+72,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 72 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 67:Choice P  → 1 points, Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, Trial 70:Choice P  → 1 points, Trial 71:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,66
+73,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 73 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, Trial 70:Choice P  → 1 points, Trial 71:Choice P  → 1 points, Trial 72:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,67
+74,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 74 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 69:Choice P  → 1 points, Trial 70:Choice P  → 1 points, Trial 71:Choice P  → 1 points, Trial 72:Choice P  → 1 points, Trial 73:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,68
+75,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 75 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 70:Choice P  → 1 points, Trial 71:Choice P  → 1 points, Trial 72:Choice P  → 1 points, Trial 73:Choice P  → 1 points, Trial 74:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,69
+76,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 76 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 71:Choice P  → 1 points, Trial 72:Choice P  → 1 points, Trial 73:Choice P  → 1 points, Trial 74:Choice P  → 1 points, Trial 75:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,70
+77,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 77 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 72:Choice P  → 1 points, Trial 73:Choice P  → 1 points, Trial 74:Choice P  → 1 points, Trial 75:Choice P  → 1 points, Trial 76:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,71
+78,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 78 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 73:Choice P  → 1 points, Trial 74:Choice P  → 1 points, Trial 75:Choice P  → 1 points, Trial 76:Choice P  → 1 points, Trial 77:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,72
+79,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 79 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 74:Choice P  → 1 points, Trial 75:Choice P  → 1 points, Trial 76:Choice P  → 1 points, Trial 77:Choice P  → 1 points, Trial 78:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,73
+80,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 80 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 75:Choice P  → 1 points, Trial 76:Choice P  → 1 points, Trial 77:Choice P  → 1 points, Trial 78:Choice P  → 1 points, Trial 79:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,74
+81,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 81 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 76:Choice P  → 1 points, Trial 77:Choice P  → 1 points, Trial 78:Choice P  → 1 points, Trial 79:Choice P  → 1 points, Trial 80:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,75
+82,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 82 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 77:Choice P  → 1 points, Trial 78:Choice P  → 1 points, Trial 79:Choice P  → 1 points, Trial 80:Choice P  → 1 points, Trial 81:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,76
+83,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 83 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 78:Choice P  → 1 points, Trial 79:Choice P  → 1 points, Trial 80:Choice P  → 1 points, Trial 81:Choice P  → 1 points, Trial 82:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,77
+84,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 84 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 79:Choice P  → 1 points, Trial 80:Choice P  → 1 points, Trial 81:Choice P  → 1 points, Trial 82:Choice P  → 1 points, Trial 83:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,78
+85,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 85 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 80:Choice P  → 1 points, Trial 81:Choice P  → 1 points, Trial 82:Choice P  → 1 points, Trial 83:Choice P  → 1 points, Trial 84:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,79
+86,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 86 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 81:Choice P  → 1 points, Trial 82:Choice P  → 1 points, Trial 83:Choice P  → 1 points, Trial 84:Choice P  → 1 points, Trial 85:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,80
+87,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 87 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 82:Choice P  → 1 points, Trial 83:Choice P  → 1 points, Trial 84:Choice P  → 1 points, Trial 85:Choice P  → 1 points, Trial 86:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,81
+88,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 88 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 83:Choice P  → 1 points, Trial 84:Choice P  → 1 points, Trial 85:Choice P  → 1 points, Trial 86:Choice P  → 1 points, Trial 87:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,82
+89,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 89 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 84:Choice P  → 1 points, Trial 85:Choice P  → 1 points, Trial 86:Choice P  → 1 points, Trial 87:Choice P  → 1 points, Trial 88:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,0,82
+90,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 90 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 85:Choice P  → 1 points, Trial 86:Choice P  → 1 points, Trial 87:Choice P  → 1 points, Trial 88:Choice P  → 1 points, Trial 89:Choice P  → 0 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,83
+91,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 91 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 86:Choice P  → 1 points, Trial 87:Choice P  → 1 points, Trial 88:Choice P  → 1 points, Trial 89:Choice P  → 0 points, Trial 90:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,84
+92,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 92 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 87:Choice P  → 1 points, Trial 88:Choice P  → 1 points, Trial 89:Choice P  → 0 points, Trial 90:Choice P  → 1 points, Trial 91:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,85
+93,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 93 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 88:Choice P  → 1 points, Trial 89:Choice P  → 0 points, Trial 90:Choice P  → 1 points, Trial 91:Choice P  → 1 points, Trial 92:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,86
+94,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 94 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 89:Choice P  → 0 points, Trial 90:Choice P  → 1 points, Trial 91:Choice P  → 1 points, Trial 92:Choice P  → 1 points, Trial 93:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,87
+95,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 95 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 90:Choice P  → 1 points, Trial 91:Choice P  → 1 points, Trial 92:Choice P  → 1 points, Trial 93:Choice P  → 1 points, Trial 94:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,88
+96,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 96 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 91:Choice P  → 1 points, Trial 92:Choice P  → 1 points, Trial 93:Choice P  → 1 points, Trial 94:Choice P  → 1 points, Trial 95:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,89
+97,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 97 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 92:Choice P  → 1 points, Trial 93:Choice P  → 1 points, Trial 94:Choice P  → 1 points, Trial 95:Choice P  → 1 points, Trial 96:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,90
+98,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 98 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 93:Choice P  → 1 points, Trial 94:Choice P  → 1 points, Trial 95:Choice P  → 1 points, Trial 96:Choice P  → 1 points, Trial 97:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,91
+99,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 99 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 94:Choice P  → 1 points, Trial 95:Choice P  → 1 points, Trial 96:Choice P  → 1 points, Trial 97:Choice P  → 1 points, Trial 98:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,92
+100,"<|begin_of_text|>
+<|start_header_id|>system<|end_header_id|>
+You are participating in multiple games involving two slot machines, labeled U and P.
+Your goal is to choose the slot machines that will give you the most points.
+You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results.
+You’ll need to adapt to these changes to keep finding the better machine.
+You will play 1 game in total, consisting of 100 trials.
+<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+# Task Parameters
+- Trial 100 of 100
+- Choose between: 'U' or 'P'
+- Possible outcomes: 1 (success) or 0 (failure)
+
+# History
+Trial 95:Choice P  → 1 points, Trial 96:Choice P  → 1 points, Trial 97:Choice P  → 1 points, Trial 98:Choice P  → 1 points, Trial 99:Choice P  → 1 points, 
+
+# Instructions
+Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
+
+Answer:<|start_header_id|>assistant<|end_header_id|>
+",P,1,93
