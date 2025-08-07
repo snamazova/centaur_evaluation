@@ -11,7 +11,7 @@ import gc
 
 DATA_IN_ = 'data/in/timeline_structure.csv'
 
-MODEL = 'llama-8B'
+MODEL = 'llama-3-8B'
 DATA_FOLDER_OUT = f'data/out/{MODEL}/singles'
 
 def generate_seeds(num_seeds=20, seed=42):
@@ -282,8 +282,14 @@ def main():
 
     # Run simulation for each seed
     for participant_id in participant_ids:
+        # Set output path for this participant
         out_path = f'{DATA_FOLDER_OUT}/participant_' + str(participant_id) + '.csv'
         result=[]
+        if os.path.exists(out_path):
+            print(f"Participant {participant_id} already simulated. Skipping...")
+            continue
+
+        
         print(f"\n🧠 Simulating participant {participant_id}")
 
         # 🔁 Re-initialize model and pipeline for each participant
