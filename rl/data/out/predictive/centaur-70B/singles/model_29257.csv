@@ -1,0 +1,786 @@
+trial_num,prompt,model_choice,human_choice,reward,cumulative_reward,log_likelihood,top2_tokens
+0,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<",U,P,1,1,-0.828125,"[{'token': 'U', 'prob': 0.5625}, {'token': 'P', 'prob': 0.4375}]"
+1,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<",P,U,1,2,-0.9765625,"[{'token': 'P', 'prob': 0.62109375}, {'token': 'U', 'prob': 0.376953125}]"
+2,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",P,U,1,3,-1.140625,"[{'token': 'P', 'prob': 0.6796875}, {'token': 'U', 'prob': 0.3203125}]"
+3,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",P,U,0,3,-0.828125,"[{'token': 'P', 'prob': 0.5625}, {'token': 'U', 'prob': 0.4375}]"
+4,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",P,U,1,4,-0.9765625,"[{'token': 'P', 'prob': 0.62109375}, {'token': 'U', 'prob': 0.376953125}]"
+5,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,5,-0.4765625,"[{'token': 'U', 'prob': 0.62109375}, {'token': 'P', 'prob': 0.376953125}]"
+6,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,P,1,6,-2.359375,"[{'token': 'U', 'prob': 0.90625}, {'token': 'P', 'prob': 0.09521484375}]"
+7,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,0,6,-0.38671875,"[{'token': 'P', 'prob': 0.6796875}, {'token': 'U', 'prob': 0.3203125}]"
+8,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",P,U,1,7,-0.69140625,"[{'token': 'U', 'prob': 0.5}, {'token': 'P', 'prob': 0.5}]"
+9,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,U,0,7,-0.251953125,"[{'token': 'U', 'prob': 0.77734375}, {'token': 'P', 'prob': 0.22265625}]"
+10,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",P,U,1,8,-1.140625,"[{'token': 'P', 'prob': 0.6796875}, {'token': 'U', 'prob': 0.3203125}]"
+11,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,9,-0.4765625,"[{'token': 'U', 'prob': 0.62109375}, {'token': 'P', 'prob': 0.376953125}]"
+12,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,10,-0.1611328125,"[{'token': 'U', 'prob': 0.8515625}, {'token': 'P', 'prob': 0.1484375}]"
+13,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,P,0,10,-2.578125,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+14,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",U,U,1,11,-0.38671875,"[{'token': 'U', 'prob': 0.6796875}, {'token': 'P', 'prob': 0.3203125}]"
+15,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,12,-0.1611328125,"[{'token': 'U', 'prob': 0.8515625}, {'token': 'P', 'prob': 0.1484375}]"
+16,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,13,-0.251953125,"[{'token': 'U', 'prob': 0.77734375}, {'token': 'P', 'prob': 0.22265625}]"
+17,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,P,0,13,-1.90625,"[{'token': 'U', 'prob': 0.8515625}, {'token': 'P', 'prob': 0.1484375}]"
+18,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",U,U,1,14,-0.12890625,"[{'token': 'U', 'prob': 0.87890625}, {'token': 'P', 'prob': 0.119140625}]"
+19,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,15,-0.1611328125,"[{'token': 'U', 'prob': 0.8515625}, {'token': 'P', 'prob': 0.1484375}]"
+20,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,16,-0.251953125,"[{'token': 'U', 'prob': 0.77734375}, {'token': 'P', 'prob': 0.22265625}]"
+21,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,17,-0.1611328125,"[{'token': 'U', 'prob': 0.8515625}, {'token': 'P', 'prob': 0.1484375}]"
+22,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,18,-0.060302734375,"[{'token': 'U', 'prob': 0.94140625}, {'token': 'P', 'prob': 0.06005859375}]"
+23,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,19,-0.0771484375,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+24,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,20,-0.0771484375,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+25,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,21,-0.0771484375,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+26,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,P,0,21,-2.578125,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+27,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",U,U,1,22,-0.203125,"[{'token': 'U', 'prob': 0.81640625}, {'token': 'P', 'prob': 0.1826171875}]"
+28,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,23,-0.1611328125,"[{'token': 'U', 'prob': 0.8515625}, {'token': 'P', 'prob': 0.1484375}]"
+29,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,24,-0.251953125,"[{'token': 'U', 'prob': 0.77734375}, {'token': 'P', 'prob': 0.22265625}]"
+30,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,25,-0.1611328125,"[{'token': 'U', 'prob': 0.8515625}, {'token': 'P', 'prob': 0.1484375}]"
+31,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,26,-0.060302734375,"[{'token': 'U', 'prob': 0.94140625}, {'token': 'P', 'prob': 0.06005859375}]"
+32,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,27,-0.0771484375,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+33,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,28,-0.0771484375,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+34,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,29,-0.0771484375,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+35,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,30,-0.0771484375,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+36,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,31,-0.0771484375,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+37,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,32,-0.0771484375,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+38,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,33,-0.0771484375,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+39,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,34,-0.0771484375,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+40,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,35,-0.0771484375,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+41,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,36,-0.0771484375,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+42,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,P,1,37,-2.578125,"[{'token': 'U', 'prob': 0.92578125}, {'token': 'P', 'prob': 0.07568359375}]"
+43,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,0,37,-0.38671875,"[{'token': 'P', 'prob': 0.6796875}, {'token': 'U', 'prob': 0.3203125}]"
+44,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",U,U,1,38,-0.314453125,"[{'token': 'U', 'prob': 0.73046875}, {'token': 'P', 'prob': 0.26953125}]"
+45,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,P,0,38,-1.5,"[{'token': 'U', 'prob': 0.77734375}, {'token': 'P', 'prob': 0.22265625}]"
+46,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",U,U,1,39,-0.251953125,"[{'token': 'U', 'prob': 0.77734375}, {'token': 'P', 'prob': 0.22265625}]"
+47,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,40,-0.57421875,"[{'token': 'U', 'prob': 0.5625}, {'token': 'P', 'prob': 0.4375}]"
+48,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,41,-0.38671875,"[{'token': 'U', 'prob': 0.6796875}, {'token': 'P', 'prob': 0.3203125}]"
+49,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,U,1,42,-0.1611328125,"[{'token': 'U', 'prob': 0.8515625}, {'token': 'P', 'prob': 0.1484375}]"
+50,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,P,1,43,-2.8125,"[{'token': 'U', 'prob': 0.94140625}, {'token': 'P', 'prob': 0.06005859375}]"
+51,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,U,1,44,-1.140625,"[{'token': 'P', 'prob': 0.6796875}, {'token': 'U', 'prob': 0.3203125}]"
+52,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",P,P,1,45,-0.4765625,"[{'token': 'P', 'prob': 0.62109375}, {'token': 'U', 'prob': 0.376953125}]"
+53,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",U,U,0,45,-0.314453125,"[{'token': 'U', 'prob': 0.73046875}, {'token': 'P', 'prob': 0.26953125}]"
+54,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",P,P,1,46,-0.0771484375,"[{'token': 'P', 'prob': 0.92578125}, {'token': 'U', 'prob': 0.07568359375}]"
+55,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",U,U,0,46,-0.6328125,"[{'token': 'U', 'prob': 0.53125}, {'token': 'P', 'prob': 0.46875}]"
+56,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",P,P,1,47,-0.12890625,"[{'token': 'P', 'prob': 0.87890625}, {'token': 'U', 'prob': 0.119140625}]"
+57,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",U,U,0,47,-0.38671875,"[{'token': 'U', 'prob': 0.6796875}, {'token': 'P', 'prob': 0.3203125}]"
+58,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",P,P,1,48,-0.0986328125,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+59,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",U,P,1,49,-1.140625,"[{'token': 'U', 'prob': 0.6796875}, {'token': 'P', 'prob': 0.3203125}]"
+60,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,50,-0.314453125,"[{'token': 'P', 'prob': 0.73046875}, {'token': 'U', 'prob': 0.26953125}]"
+61,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,51,-0.1611328125,"[{'token': 'P', 'prob': 0.8515625}, {'token': 'U', 'prob': 0.1484375}]"
+62,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,52,-0.0986328125,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+63,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,53,-0.0986328125,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+64,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,54,-0.0986328125,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+65,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,55,-0.0986328125,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+66,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,56,-0.0986328125,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+67,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,57,-0.0986328125,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+68,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,U,0,57,-2.359375,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+69,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",P,P,1,58,-0.203125,"[{'token': 'P', 'prob': 0.81640625}, {'token': 'U', 'prob': 0.1826171875}]"
+70,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",P,U,0,58,-1.90625,"[{'token': 'P', 'prob': 0.8515625}, {'token': 'U', 'prob': 0.1484375}]"
+71,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",P,P,1,59,-0.12890625,"[{'token': 'P', 'prob': 0.87890625}, {'token': 'U', 'prob': 0.119140625}]"
+72,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",U,P,1,60,-1.140625,"[{'token': 'U', 'prob': 0.6796875}, {'token': 'P', 'prob': 0.3203125}]"
+73,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,61,-0.314453125,"[{'token': 'P', 'prob': 0.73046875}, {'token': 'U', 'prob': 0.26953125}]"
+74,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,U,0,61,-1.90625,"[{'token': 'P', 'prob': 0.8515625}, {'token': 'U', 'prob': 0.1484375}]"
+75,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",P,P,1,62,-0.12890625,"[{'token': 'P', 'prob': 0.87890625}, {'token': 'U', 'prob': 0.119140625}]"
+76,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,63,-0.1611328125,"[{'token': 'P', 'prob': 0.8515625}, {'token': 'U', 'prob': 0.1484375}]"
+77,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,64,-0.203125,"[{'token': 'P', 'prob': 0.81640625}, {'token': 'U', 'prob': 0.1826171875}]"
+78,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,65,-0.1611328125,"[{'token': 'P', 'prob': 0.8515625}, {'token': 'U', 'prob': 0.1484375}]"
+79,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,66,-0.0986328125,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+80,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,67,-0.0986328125,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+81,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,68,-0.0986328125,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+82,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,U,0,68,-2.359375,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+83,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",P,P,1,69,-0.203125,"[{'token': 'P', 'prob': 0.81640625}, {'token': 'U', 'prob': 0.1826171875}]"
+84,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,70,-0.1611328125,"[{'token': 'P', 'prob': 0.8515625}, {'token': 'U', 'prob': 0.1484375}]"
+85,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,U,0,70,-1.703125,"[{'token': 'P', 'prob': 0.81640625}, {'token': 'U', 'prob': 0.1826171875}]"
+86,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",P,U,0,70,-2.125,"[{'token': 'P', 'prob': 0.87890625}, {'token': 'U', 'prob': 0.119140625}]"
+87,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<",P,P,1,71,-0.314453125,"[{'token': 'P', 'prob': 0.73046875}, {'token': 'U', 'prob': 0.26953125}]"
+88,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",P,P,0,71,-0.251953125,"[{'token': 'P', 'prob': 0.77734375}, {'token': 'U', 'prob': 0.22265625}]"
+89,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",U,U,1,72,-0.57421875,"[{'token': 'U', 'prob': 0.5625}, {'token': 'P', 'prob': 0.4375}]"
+90,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,P,1,73,-1.140625,"[{'token': 'U', 'prob': 0.6796875}, {'token': 'P', 'prob': 0.3203125}]"
+91,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",U,P,1,74,-1.0546875,"[{'token': 'U', 'prob': 0.65234375}, {'token': 'P', 'prob': 0.34765625}]"
+92,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,75,-0.51953125,"[{'token': 'P', 'prob': 0.59375}, {'token': 'U', 'prob': 0.408203125}]"
+93,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,76,-0.4765625,"[{'token': 'P', 'prob': 0.62109375}, {'token': 'U', 'prob': 0.376953125}]"
+94,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,77,-0.314453125,"[{'token': 'P', 'prob': 0.73046875}, {'token': 'U', 'prob': 0.26953125}]"
+95,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,78,-0.0986328125,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+96,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,79,-0.0986328125,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+97,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,P,1,80,-0.0986328125,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+98,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,U,0,80,-2.359375,"[{'token': 'P', 'prob': 0.90625}, {'token': 'U', 'prob': 0.09521484375}]"
+99,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",P,P,1,81,-0.203125,"[{'token': 'P', 'prob': 0.81640625}, {'token': 'U', 'prob': 0.1826171875}]"
