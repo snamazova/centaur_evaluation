@@ -1608,7 +1608,7 @@ Trial 65:Choice P  → 1 points, Trial 66:Choice P  → 1 points, Trial 67:Choic
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",P,1,56
+",U,1,56
 71,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -1625,13 +1625,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 66:Choice P  → 1 points, Trial 67:Choice U  → 0 points, Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, Trial 70:Choice P  → 1 points, 
+Trial 66:Choice P  → 1 points, Trial 67:Choice U  → 0 points, Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, Trial 70:Choice U  → 1 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",P,1,57
+",U,0,56
 72,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -1648,13 +1648,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 67:Choice U  → 0 points, Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, Trial 70:Choice P  → 1 points, Trial 71:Choice P  → 1 points, 
+Trial 67:Choice U  → 0 points, Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, Trial 70:Choice U  → 1 points, Trial 71:Choice U  → 0 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",U,0,57
+",U,0,56
 73,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -1671,13 +1671,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, Trial 70:Choice P  → 1 points, Trial 71:Choice P  → 1 points, Trial 72:Choice U  → 0 points, 
+Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, Trial 70:Choice U  → 1 points, Trial 71:Choice U  → 0 points, Trial 72:Choice U  → 0 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",U,0,57
+",U,0,56
 74,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -1694,13 +1694,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 69:Choice P  → 1 points, Trial 70:Choice P  → 1 points, Trial 71:Choice P  → 1 points, Trial 72:Choice U  → 0 points, Trial 73:Choice U  → 0 points, 
+Trial 69:Choice P  → 1 points, Trial 70:Choice U  → 1 points, Trial 71:Choice U  → 0 points, Trial 72:Choice U  → 0 points, Trial 73:Choice U  → 0 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",P,1,58
+",P,1,57
 75,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -1717,13 +1717,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 70:Choice P  → 1 points, Trial 71:Choice P  → 1 points, Trial 72:Choice U  → 0 points, Trial 73:Choice U  → 0 points, Trial 74:Choice P  → 1 points, 
+Trial 70:Choice U  → 1 points, Trial 71:Choice U  → 0 points, Trial 72:Choice U  → 0 points, Trial 73:Choice U  → 0 points, Trial 74:Choice P  → 1 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",U,0,58
+",U,0,57
 76,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -1740,13 +1740,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 71:Choice P  → 1 points, Trial 72:Choice U  → 0 points, Trial 73:Choice U  → 0 points, Trial 74:Choice P  → 1 points, Trial 75:Choice U  → 0 points, 
+Trial 71:Choice U  → 0 points, Trial 72:Choice U  → 0 points, Trial 73:Choice U  → 0 points, Trial 74:Choice P  → 1 points, Trial 75:Choice U  → 0 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",U,1,59
+",P,1,58
 77,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -1763,13 +1763,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 72:Choice U  → 0 points, Trial 73:Choice U  → 0 points, Trial 74:Choice P  → 1 points, Trial 75:Choice U  → 0 points, Trial 76:Choice U  → 1 points, 
+Trial 72:Choice U  → 0 points, Trial 73:Choice U  → 0 points, Trial 74:Choice P  → 1 points, Trial 75:Choice U  → 0 points, Trial 76:Choice P  → 1 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",U,0,59
+",U,0,58
 78,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -1786,13 +1786,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 73:Choice U  → 0 points, Trial 74:Choice P  → 1 points, Trial 75:Choice U  → 0 points, Trial 76:Choice U  → 1 points, Trial 77:Choice U  → 0 points, 
+Trial 73:Choice U  → 0 points, Trial 74:Choice P  → 1 points, Trial 75:Choice U  → 0 points, Trial 76:Choice P  → 1 points, Trial 77:Choice U  → 0 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",P,1,60
+",P,1,59
 79,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -1809,13 +1809,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 74:Choice P  → 1 points, Trial 75:Choice U  → 0 points, Trial 76:Choice U  → 1 points, Trial 77:Choice U  → 0 points, Trial 78:Choice P  → 1 points, 
+Trial 74:Choice P  → 1 points, Trial 75:Choice U  → 0 points, Trial 76:Choice P  → 1 points, Trial 77:Choice U  → 0 points, Trial 78:Choice P  → 1 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",P,1,61
+",P,1,60
 80,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -1832,13 +1832,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 75:Choice U  → 0 points, Trial 76:Choice U  → 1 points, Trial 77:Choice U  → 0 points, Trial 78:Choice P  → 1 points, Trial 79:Choice P  → 1 points, 
+Trial 75:Choice U  → 0 points, Trial 76:Choice P  → 1 points, Trial 77:Choice U  → 0 points, Trial 78:Choice P  → 1 points, Trial 79:Choice P  → 1 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",U,0,61
+",P,1,61
 81,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -1855,7 +1855,7 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 76:Choice U  → 1 points, Trial 77:Choice U  → 0 points, Trial 78:Choice P  → 1 points, Trial 79:Choice P  → 1 points, Trial 80:Choice U  → 0 points, 
+Trial 76:Choice P  → 1 points, Trial 77:Choice U  → 0 points, Trial 78:Choice P  → 1 points, Trial 79:Choice P  → 1 points, Trial 80:Choice P  → 1 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
@@ -1878,7 +1878,7 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 77:Choice U  → 0 points, Trial 78:Choice P  → 1 points, Trial 79:Choice P  → 1 points, Trial 80:Choice U  → 0 points, Trial 81:Choice U  → 0 points, 
+Trial 77:Choice U  → 0 points, Trial 78:Choice P  → 1 points, Trial 79:Choice P  → 1 points, Trial 80:Choice P  → 1 points, Trial 81:Choice U  → 0 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
@@ -1901,7 +1901,7 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 78:Choice P  → 1 points, Trial 79:Choice P  → 1 points, Trial 80:Choice U  → 0 points, Trial 81:Choice U  → 0 points, Trial 82:Choice U  → 0 points, 
+Trial 78:Choice P  → 1 points, Trial 79:Choice P  → 1 points, Trial 80:Choice P  → 1 points, Trial 81:Choice U  → 0 points, Trial 82:Choice U  → 0 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
@@ -1924,7 +1924,7 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 79:Choice P  → 1 points, Trial 80:Choice U  → 0 points, Trial 81:Choice U  → 0 points, Trial 82:Choice U  → 0 points, Trial 83:Choice P  → 1 points, 
+Trial 79:Choice P  → 1 points, Trial 80:Choice P  → 1 points, Trial 81:Choice U  → 0 points, Trial 82:Choice U  → 0 points, Trial 83:Choice P  → 1 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
@@ -1947,7 +1947,7 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 80:Choice U  → 0 points, Trial 81:Choice U  → 0 points, Trial 82:Choice U  → 0 points, Trial 83:Choice P  → 1 points, Trial 84:Choice P  → 1 points, 
+Trial 80:Choice P  → 1 points, Trial 81:Choice U  → 0 points, Trial 82:Choice U  → 0 points, Trial 83:Choice P  → 1 points, Trial 84:Choice P  → 1 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
@@ -2068,7 +2068,7 @@ Trial 85:Choice P  → 1 points, Trial 86:Choice U  → 0 points, Trial 87:Choic
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",P,1,67
+",U,1,67
 91,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -2085,7 +2085,7 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 86:Choice U  → 0 points, Trial 87:Choice P  → 1 points, Trial 88:Choice P  → 1 points, Trial 89:Choice P  → 0 points, Trial 90:Choice P  → 1 points, 
+Trial 86:Choice U  → 0 points, Trial 87:Choice P  → 1 points, Trial 88:Choice P  → 1 points, Trial 89:Choice P  → 0 points, Trial 90:Choice U  → 1 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
@@ -2108,13 +2108,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 87:Choice P  → 1 points, Trial 88:Choice P  → 1 points, Trial 89:Choice P  → 0 points, Trial 90:Choice P  → 1 points, Trial 91:Choice P  → 1 points, 
+Trial 87:Choice P  → 1 points, Trial 88:Choice P  → 1 points, Trial 89:Choice P  → 0 points, Trial 90:Choice U  → 1 points, Trial 91:Choice P  → 1 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",P,1,69
+",U,0,68
 93,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -2131,13 +2131,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 88:Choice P  → 1 points, Trial 89:Choice P  → 0 points, Trial 90:Choice P  → 1 points, Trial 91:Choice P  → 1 points, Trial 92:Choice P  → 1 points, 
+Trial 88:Choice P  → 1 points, Trial 89:Choice P  → 0 points, Trial 90:Choice U  → 1 points, Trial 91:Choice P  → 1 points, Trial 92:Choice U  → 0 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",P,1,70
+",P,1,69
 94,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -2154,13 +2154,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 89:Choice P  → 0 points, Trial 90:Choice P  → 1 points, Trial 91:Choice P  → 1 points, Trial 92:Choice P  → 1 points, Trial 93:Choice P  → 1 points, 
+Trial 89:Choice P  → 0 points, Trial 90:Choice U  → 1 points, Trial 91:Choice P  → 1 points, Trial 92:Choice U  → 0 points, Trial 93:Choice P  → 1 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",P,1,71
+",U,0,69
 95,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -2177,13 +2177,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 90:Choice P  → 1 points, Trial 91:Choice P  → 1 points, Trial 92:Choice P  → 1 points, Trial 93:Choice P  → 1 points, Trial 94:Choice P  → 1 points, 
+Trial 90:Choice U  → 1 points, Trial 91:Choice P  → 1 points, Trial 92:Choice U  → 0 points, Trial 93:Choice P  → 1 points, Trial 94:Choice U  → 0 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",P,1,72
+",P,1,70
 96,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -2200,13 +2200,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 91:Choice P  → 1 points, Trial 92:Choice P  → 1 points, Trial 93:Choice P  → 1 points, Trial 94:Choice P  → 1 points, Trial 95:Choice P  → 1 points, 
+Trial 91:Choice P  → 1 points, Trial 92:Choice U  → 0 points, Trial 93:Choice P  → 1 points, Trial 94:Choice U  → 0 points, Trial 95:Choice P  → 1 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",P,1,73
+",P,1,71
 97,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -2223,13 +2223,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 92:Choice P  → 1 points, Trial 93:Choice P  → 1 points, Trial 94:Choice P  → 1 points, Trial 95:Choice P  → 1 points, Trial 96:Choice P  → 1 points, 
+Trial 92:Choice U  → 0 points, Trial 93:Choice P  → 1 points, Trial 94:Choice U  → 0 points, Trial 95:Choice P  → 1 points, Trial 96:Choice P  → 1 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",P,1,74
+",P,1,72
 98,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -2246,13 +2246,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 93:Choice P  → 1 points, Trial 94:Choice P  → 1 points, Trial 95:Choice P  → 1 points, Trial 96:Choice P  → 1 points, Trial 97:Choice P  → 1 points, 
+Trial 93:Choice P  → 1 points, Trial 94:Choice U  → 0 points, Trial 95:Choice P  → 1 points, Trial 96:Choice P  → 1 points, Trial 97:Choice P  → 1 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",U,0,74
+",U,0,72
 99,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -2269,13 +2269,13 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 94:Choice P  → 1 points, Trial 95:Choice P  → 1 points, Trial 96:Choice P  → 1 points, Trial 97:Choice P  → 1 points, Trial 98:Choice U  → 0 points, 
+Trial 94:Choice U  → 0 points, Trial 95:Choice P  → 1 points, Trial 96:Choice P  → 1 points, Trial 97:Choice P  → 1 points, Trial 98:Choice U  → 0 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",U,0,74
+",U,0,72
 100,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -2298,4 +2298,4 @@ Trial 95:Choice P  → 1 points, Trial 96:Choice P  → 1 points, Trial 97:Choic
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",P,1,75
+",P,1,73

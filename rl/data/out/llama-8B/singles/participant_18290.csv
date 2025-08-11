@@ -1608,7 +1608,7 @@ Trial 65:Choice U  → 0 points, Trial 66:Choice P  → 1 points, Trial 67:Choic
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
 
 Answer:<|start_header_id|>assistant<|end_header_id|>
-",U,1,54
+",P,1,54
 71,"<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
 You are participating in multiple games involving two slot machines, labeled U and P.
@@ -1625,7 +1625,7 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 66:Choice P  → 1 points, Trial 67:Choice P  → 1 points, Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, Trial 70:Choice U  → 1 points, 
+Trial 66:Choice P  → 1 points, Trial 67:Choice P  → 1 points, Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, Trial 70:Choice P  → 1 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
@@ -1648,7 +1648,7 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 67:Choice P  → 1 points, Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, Trial 70:Choice U  → 1 points, Trial 71:Choice U  → 0 points, 
+Trial 67:Choice P  → 1 points, Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, Trial 70:Choice P  → 1 points, Trial 71:Choice U  → 0 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
@@ -1671,7 +1671,7 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, Trial 70:Choice U  → 1 points, Trial 71:Choice U  → 0 points, Trial 72:Choice U  → 0 points, 
+Trial 68:Choice P  → 1 points, Trial 69:Choice P  → 1 points, Trial 70:Choice P  → 1 points, Trial 71:Choice U  → 0 points, Trial 72:Choice U  → 0 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
@@ -1694,7 +1694,7 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 69:Choice P  → 1 points, Trial 70:Choice U  → 1 points, Trial 71:Choice U  → 0 points, Trial 72:Choice U  → 0 points, Trial 73:Choice U  → 0 points, 
+Trial 69:Choice P  → 1 points, Trial 70:Choice P  → 1 points, Trial 71:Choice U  → 0 points, Trial 72:Choice U  → 0 points, Trial 73:Choice U  → 0 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
@@ -1717,7 +1717,7 @@ You will play 1 game in total, consisting of 100 trials.
 - Possible outcomes: 1 (success) or 0 (failure)
 
 # History
-Trial 70:Choice U  → 1 points, Trial 71:Choice U  → 0 points, Trial 72:Choice U  → 0 points, Trial 73:Choice U  → 0 points, Trial 74:Choice U  → 0 points, 
+Trial 70:Choice P  → 1 points, Trial 71:Choice U  → 0 points, Trial 72:Choice U  → 0 points, Trial 73:Choice U  → 0 points, Trial 74:Choice U  → 0 points, 
 
 # Instructions
 Respond with **only** one character: 'U' or 'P'. No punctuation, no quotes, no explanation.
