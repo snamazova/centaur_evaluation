@@ -1,0 +1,786 @@
+trial_num,prompt,choice,reward,cumulative_reward
+1,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<",U,1,1
+2,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<",U,1,2
+3,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,1,3
+4,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,0,3
+5,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",U,1,4
+6,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,1,5
+7,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,1,6
+8,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,1,7
+9,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,1,8
+10,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,0,8
+11,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",U,1,9
+12,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,1,10
+13,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,1,11
+14,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",P,0,11
+15,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",P,1,12
+16,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",U,1,13
+17,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<P> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",P,0,13
+18,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<P> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",U,1,14
+19,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<P> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,1,15
+20,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,1,16
+21,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",P,0,16
+22,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",U,1,17
+23,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",P,0,17
+24,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",P,0,17
+25,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<",U,1,18
+26,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,1,19
+27,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",P,0,19
+28,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",U,1,20
+29,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,1,21
+30,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",P,0,21
+31,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",U,1,22
+32,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,1,23
+33,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",P,0,23
+34,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",P,1,24
+35,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",P,0,24
+36,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",P,0,24
+37,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<P> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<",P,0,24
+38,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<",P,0,24
+39,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<",P,0,24
+40,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<",P,0,24
+41,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<",P,0,24
+42,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<",U,1,25
+43,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<",U,1,26
+44,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,1,27
+45,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,1,28
+46,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,1,29
+47,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,1,30
+48,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,1,31
+49,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,1,32
+50,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,1,33
+51,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,1,34
+52,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,1,35
+53,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<",U,0,35
+54,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",U,0,35
+55,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<",P,1,36
+56,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",P,1,37
+57,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,38
+58,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,39
+59,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,40
+60,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,41
+61,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,42
+62,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",U,0,42
+63,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",P,1,43
+64,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",U,0,43
+65,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",U,0,43
+66,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<",P,1,44
+67,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",P,1,45
+68,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,46
+69,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,47
+70,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,48
+71,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",U,0,48
+72,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",P,1,49
+73,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",P,1,50
+74,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,51
+75,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,52
+76,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,53
+77,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,54
+78,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,55
+79,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,56
+80,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,57
+81,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,58
+82,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",U,0,58
+83,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",P,1,59
+84,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",P,1,60
+85,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,61
+86,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,62
+87,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,63
+88,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,64
+89,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,0,64
+90,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<",P,1,65
+91,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",P,1,66
+92,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",U,0,66
+93,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<",U,0,66
+94,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<",P,1,67
+95,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<",P,1,68
+96,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,69
+97,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,70
+98,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<U> and get 0 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,71
+99,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,72
+100,"You are participating in multiple games involving two slot machines, labeled U and P.
+You can choose a slot machine by pressing its corresponding key.When you select one of the machines, you will win 1 or 0 points.Your goal is to choose the slot machines that will give you the most points.You will receive feedback about the outcome after making a choice.
+The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine.You will play 1 game in total, consisting of 100 trials. Game 1. There are 100 trials in this game.You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<P> and get 1 points.
+You press <<",P,1,73
