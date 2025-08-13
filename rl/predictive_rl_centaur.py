@@ -64,17 +64,16 @@ def extract_model_choice(raw_response: str) -> str:
 
 def build_slot_prompt(current_trial: int, past_trials: list, total_trials: int) -> str:
     """Builds the prompt for the current trial with past trial data."""
-    recent_trials = past_trials[-5:] if len(past_trials) > 5 else past_trials
-
+    recent_trials = past_trials
     prompt = (
-              "You are participating in multiple games involving two slot machines, labeled U and P.\n"
+              "In this task, you have to repeatedly choose between two slot machines labeled U and P.\n"
               "You can choose a slot machine by pressing its corresponding key."
               "When you select one of the machines, you will win 1 or 0 points."
               "Your goal is to choose the slot machines that will give you the most points."
               "You will receive feedback about the outcome after making a choice.\n"
               "The environment may change unpredictably, and past success does not guarantee future results. You’ll need to adapt to these changes to keep finding the better machine."
               f"You will play 1 game in total, consisting of {total_trials} trials."
-            f" Game 1. There are {total_trials} trials in this game."
+            f" Game 1:"
     )
 
     # Add history of past trials to the prompt

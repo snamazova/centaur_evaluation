@@ -10,7 +10,7 @@ import os
 
 DATA_IN_TEST = 'data/in/test_data.csv'
 
-MODEL = 'llama-3-8B'
+MODEL = 'llama-70B'
 DATA_FOLDER_OUT = f'data/out/predictive/{MODEL}/singles'
 
 def generate_seeds(num_seeds=20, seed=42):

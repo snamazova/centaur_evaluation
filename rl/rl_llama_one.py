@@ -8,7 +8,7 @@ import os
 import gc
 
 
-MODEL = 'llama-3-8B'  # Change this to the desired model name
+MODEL = 'llama-70B'  # Change this to the desired model name
 DATA_FOLDER_OUT = f'data/out/{MODEL}/singles'
 
 def generate_seeds(num_seeds=20, seed=42):
@@ -73,20 +73,19 @@ def build_slot_prompt(current_trial: int, past_trials: list, total_trials: int) 
 
     return f"""<|begin_of_text|>
 <|start_header_id|>system<|end_header_id|>
-You are participating in multiple games involving two slot machines, labeled U and P.
+In this task, you have to repeatedly choose between two slot machines labeled U and P.\n
 Your goal is to choose the slot machines that will give you the most points.
-You will receive feedback about the outcome after making a choice.
+You will receive feedback about the outcome after making a choice.\n
 The environment may change unpredictably, and past success does not guarantee future results.
 You’ll need to adapt to these changes to keep finding the better machine.
 You will play 1 game in total, consisting of 100 trials.
 <|eot_id|>
 <|start_header_id|>user<|end_header_id|>
 # Task Parameters
+- Game 1:
 - Trial {current_trial} of {total_trials}
-- Choose between: 'U' or 'P'
-- Possible outcomes: 1 (success) or 0 (failure)
 
-# History
+# Recent History
 {formatted_trials}
 
 # Instructions
@@ -105,7 +104,7 @@ def generate_timeline(num_trials=100, seed=42):
     Returns:
         A DataFrame containing the trial data with columns: 'trial', 'choice', 'reward'.
     """
-    random.seed(42)
+    random.seed(seed)
 
     # Number of trials
     num_trials = 100
@@ -147,7 +146,7 @@ def generate(prompt: str, pipe: transformers.pipeline) -> str:
     """
     return pipe(prompt)[0]['generated_text'][len(prompt):]
 
-def simulate_participant(timeline, model, tokenizer, pipe):
+def simulate_participant(timeline: list, pipe: transformers.pipeline) -> pd.DataFrame:
     """Simulates a participant with log-likelihood tracking"""
     history = []
     cumulative_reward = 0
@@ -198,6 +197,11 @@ def main():
 
     seeds = generate_seeds(num_seeds=32)
     timeline = generate_timeline(num_trials=100)
+    # Initialize new model for each seed
+    model,tokenizer = get_models.get_model_no_pipe(MODEL)
+    model._past = None  # Reset past states if necessary
+    torch.cuda.empty_cache()  # Clear GPU memory again
+    pipe=create_text_generation_pipeline(model,tokenizer,max_new_tokens=1)
     # Run simulation for each seed
     for run_id, seed in enumerate(seeds):
         out_path = f'{DATA_FOLDER_OUT}/participant_' + str(seed) + '.csv'
@@ -205,24 +209,13 @@ def main():
         torch.cuda.empty_cache()
         fix_seed(seed)  # Ensure reproducibility
         torch.cuda.empty_cache()  # Clear GPU memory before loading model
-
-        # Initialize new model for each seed
-        model,tokenizer = get_models.get_model_no_pipe(MODEL)
-        model._past = None  # Reset past states if necessary
-        torch.cuda.empty_cache()  # Clear GPU memory again
-
-        pipe=create_text_generation_pipeline(model,tokenizer,max_new_tokens=1)
         # Run simulation
-        history = simulate_participant(timeline, model, tokenizer, pipe)
+        history = simulate_participant(timeline,pipe)
         # Save results
         history.to_csv(out_path, index=False)
-
-
         # Cleanup: delete model and clear memory
-        del model
         gc.collect()
         torch.cuda.empty_cache()
-
 
 if __name__ == "__main__":
     main()

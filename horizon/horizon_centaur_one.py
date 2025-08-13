@@ -11,7 +11,7 @@ import gc
 
 DATA_IN_ = 'data/in/timeline_structure.csv'
 
-MODEL = 'llama-70B'
+MODEL = 'centaur-70B'
 DATA_FOLDER_OUT = f'data/out/{MODEL}/singles'
 
 def generate_seeds(num_seeds=20, seed=42):
@@ -62,73 +62,35 @@ def extract_model_choice(raw_response: str) -> str:
     # Clean up the raw response by removing leading/trailing whitespace and quotes
     cleaned_response = raw_response.strip().strip('"')
     return cleaned_response
+def build_game_intro(timeline_df, game_number):
+    """Build the introduction part of the prompt for a game."""
+    total_trials = timeline_df['trial_num_block'].max()
+    intro = [
+            f"You are participating in multiple games involving two slot machines, labeled I and H.",
+            "The two slot machines are different across different games.",
+            "Each time you choose a slot machine, you get some points.",
+            "You choose a slot machine by pressing the corresponding key.",
+            "Each slot machine tends to pay out about the same amount of points on average.",
+            "Your goal is to choose the slot machines that will give you the most points across the experiment.",
+            "The first 4 trials in each game are instructed trials where you will be told which slot machine to choose.",
+            "After these instructed trials, you will have the freedom to choose for either 1 or 6 trials.",
+            f" Game {game_number}. There are {total_trials} trials in this game."
+        ]
+    return intro
 
-def format_forced_trials(forced_df) -> str:
-    """Format forced (instructed) trials as readable prompt text."""
-    lines = []
+def format_forced_trials(forced_df):
+    """Format instructed (forced) trials for the prompt."""
+    trials_text = []
     for _, row in forced_df.iterrows():
-        lines.append(f"Instructed: press {row['choice']} → {row['reward']} points.")
-    return "\n".join(lines)
+        trials_text.append(f"You are instructed to press {row['choice']} and get {row['reward']} points.")
+    return trials_text
 
-
-def format_past_trials(past_df) -> str:
+def format_past_trials(past_df):
     """Format past free-choice trials for the prompt."""
-    lines = []
+    trials_text = []
     for _, row in past_df.iterrows():
-        lines.append(f"Choice: {row['choice']} → {row['reward']} points.")
-    return "\n".join(lines)
-
-
-def build_slot_prompt_llama(
-    current_trial: int,
-    past_trials: list,
-    forced_choices: str,
-    total_trials: int,
-    game_number,
-    total_games=320
-) -> str:
-    """
-    Builds a slot task prompt that:
-    1. Preserves task structure
-    3. Encourages evidence-based exploration
-    4. Helps model infer the optimal choice
-    """
-
-
-    # Format forced lines for outcome summary calculation
-    # Show recent free choices
-  
-    return f"""<|begin_of_text|>
-
-<|start_header_id|>system<|end_header_id|>
-
-You are participating in multiple games involving two slot machines(labeled H and I).Your goal is to choose the slot machines that will give you the most points across the experiment
-The two slot machines are different across different games.Each time you choose a slot machine, you get some points.
-Each slot machine tends to pay out about the same amount of points on average.
-The first 4 trials in each game are instructed trials where you will be told which slot machine to choose
-After these instructed trials, you will have the freedom to choose for either 1 or 6 trials.
-
-<|eot_id|>
-
-<|start_header_id|>user<|end_header_id|>
-# Task Parameters
-- Game {game_number} of {total_games}
-- Trial {current_trial} of {total_trials}
-- Choose between: 'I' or 'H'
-
-## Outcome History
-**Instructed Trials:**
-{forced_choices}
-
-**Recent Free Choices:**
-{past_trials}
-
-
-# Instructions
-Respond with **only** one character: 'I' or 'H'. No punctuation, no quotes, no explanation.
-
-Answer:<|start_header_id|>assistant<|end_header_id|>
-"""
+        trials_text.append(f"You press <<{row['choice']}>> and get {row['reward']} points.")
+    return trials_text
 
 def fix_seed(seed):
     torch.manual_seed(seed)
@@ -198,41 +160,25 @@ def simulate_participant_by_block(timeline_df, participant_id, seeds,model,token
             # Simulate free-choice trials
             for _, row in free_df.iterrows():
                 current_trial = row["trial_num_block"]
-                game=row['game']
-                m1=free_df[free_df['trial_num_block']==current_trial]['reward_mean_H'].values[0]
-                m2=free_df[free_df['trial_num_block']==current_trial]['reward_mean_I'].values[0]
                 past_forced_df = simulated_game_df[simulated_game_df["type"] == "forced"]
                 past_free_df = simulated_game_df[
                     (simulated_game_df["type"] == "free") &
                     (simulated_game_df["trial_num_block"] < current_trial)
                 ]
+
+                game_intro = build_game_intro(game_df, game)
                 forced_trials_text = format_forced_trials(past_forced_df)
                 free_trials_text = format_past_trials(past_free_df)
 
-                prompt = build_slot_prompt_llama(
-                      current_trial=current_trial,
-                      past_trials=free_trials_text,
-                      forced_choices=forced_trials_text,
-                      total_trials=len(game_df),
-                      game_number=game
-                  )
-
+                prompt = str(game_intro + forced_trials_text + free_trials_text) + "You press <<"
                 model_choice = generate(prompt, pipe)
-                if m1>m2 and model_choice=="H":
-                  is_optimal=True
-                elif m1<m2 and model_choice=="I":
-                  is_optimal=True
-                else:
-                  is_optimal=False
 
-                # Update cumulative reward
+
                 reward_h = row["reward_H"]
                 reward_i = row["reward_I"]
 
                 reward = reward_h if model_choice == "H" else reward_i if model_choice == "I" else None
                 cumulative_reward += reward
-
-                #print(f"this is model choice {model_choice} and it is reward{cumulative_reward}")
 
                 # Create new simulated row and append to local game history
                 simulated_row = row.copy()
@@ -256,13 +202,11 @@ def simulate_participant_by_block(timeline_df, participant_id, seeds,model,token
                     "reward": reward,
                     "cumulative_reward": cumulative_reward,
                     "prompt": simulated_row["prompt"],
-                    "is_optimal": is_optimal,
                     "is_free": True
                 })
-
                 #print(f"Prompt for trial {current_trial}:")
                 #print("".join(prompt))
-                print(f"Model choice: {model_choice} and it is optimal {is_optimal}")
+                #print(f"Model choice: {model_choice} and it is optimal {is_optimal}")
                 #print("---")
                 print(f"cumulative reward {cumulative_reward}")
 
@@ -279,18 +223,20 @@ def main():
     seeds = generate_seeds(num_seeds=32)
     timeline = pd.read_csv(DATA_IN_)
     participant_ids = timeline['participant_id'].unique()
+    model,tokenizer = get_models.get_model_no_pipe(MODEL)
+    model._past = None  # Reset past states if necessary
+    torch.cuda.empty_cache()  # Clear GPU memory again
+    pipe=create_text_generation_pipeline(model,tokenizer,max_new_tokens=1)
 
     # Run simulation for each seed
     for participant_id in participant_ids:
-        # Set output path for this participant
         out_path = f'{DATA_FOLDER_OUT}/participant_' + str(participant_id) + '.csv'
         result=[]
+        print(f"\n🧠 Simulating participant {participant_id}")
+
         if os.path.exists(out_path):
             print(f"Participant {participant_id} already simulated. Skipping...")
             continue
-
-        
-        print(f"\n🧠 Simulating participant {participant_id}")
 
         # 🔁 Re-initialize model and pipeline for each participant
         gc.collect()
@@ -303,14 +249,6 @@ def main():
 
         seed_id= seeds[int(participant_id - 1)]
         fix_seed(seed_id)
-
-        # Initialize new model for each seed
-        model,tokenizer = get_models.get_model_no_pipe(MODEL)
-        model._past = None  # Reset past states if necessary
-        torch.cuda.empty_cache()  # Clear GPU memory again
-
-        pipe=create_text_generation_pipeline(model,tokenizer,max_new_tokens=1)
-        # Run simulation
         # Run participant simulation
         participant_data = timeline[timeline['participant_id'] == participant_id]
         result = simulate_participant_by_block(participant_data, participant_id,seeds, model, tokenizer, pipe)
@@ -318,10 +256,7 @@ def main():
         result.to_csv(out_path, index=False)
 
 
-        # Cleanup: delete model and clear memory
-        del model, tokenizer, pipe
-        if torch.cuda.is_available():
-            torch.cuda.empty_cache()
+        # Cleanup: clear memory
         gc.collect()
         torch.cuda.empty_cache()
 

@@ -1,12 +1,14 @@
 #!/bin/bash
-#SBATCH --job-name=llama_3b_horizon
-#SBATCH --partition=A100-40GB
-#SBATCH --time=01:00:00
+#SBATCH --job-name=horizon_70b
+#SBATCH --partition=A100-80GB
+#SBATCH --output=logs/chorizon_test_%j.log
+#SBATCH --time=6:00:00
 #SBATCH --mem=300gb
-#SBATCH --gpus=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=30
-#SBATCH --gpu-bind=single:1
+#SBATCH --gpus=2
+#SBATCH --gpus-per-task=2
+#SBATCH --cpus-per-task=20
+#SBATCH --gpu-bind=none
 #SBATCH --mail-user=sana04@dfki.de
 #SBATCH --mail-type=ALL
 
@@ -22,5 +24,5 @@ srun \
     echo 'Activating virtual environment' &&
     source ../.env/bin/activate &&
     echo 'Running script...' &&
-    python horizon_llama.py \
+    python horizon_centaur_one.py \
   "

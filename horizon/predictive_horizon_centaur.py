@@ -10,8 +10,8 @@ import os
 
 DATA_IN_TEST = 'data/in/test_data.csv'
 
-MODEL = 'centaur-8B'
-DATA_FOLDER_OUT = f'data/out/predictive/{MODEL}/singles'
+MODEL = 'centaur-70B'
+DATA_FOLDER_OUT = f'data/out/predictive/{MODEL}_test/singles'
 
 def generate_seeds(num_seeds=20, seed=42):
     """Generates a list of random seeds.
@@ -64,7 +64,7 @@ def extract_model_choice(raw_response: str) -> str:
 
 def build_game_intro(timeline_df, game_number):
     """Build the introduction part of the prompt for a game."""
-    total_trials = timeline_df['trial_num_block'].max()
+    total_trials = timeline_df['trial'].max()
     intro = [
             f"You are participating in multiple games involving two slot machines, labeled I and H.",
             "The two slot machines are different across different games.",
@@ -100,11 +100,6 @@ def fix_seed(seed):
 
 def generate(prompt, pipe):
     return pipe(prompt)[0]['generated_text'][len(prompt):]
-
-# Modified simulation function
-import pandas as pd
-import torch
-import torch.nn.functional as F
 
 def simulate_participant_by_block(timeline_df, pipe, participant_id, model, tokenizer, letter_token_ids):
     """
@@ -178,12 +173,6 @@ def simulate_participant_by_block(timeline_df, pipe, participant_id, model, toke
                     #print(f"Prompt for trial {current_trial}:")
                     #print(prompt)
 
-                    # Generate model choice and log-likelihood
-                    model_choice = generate(
-                        prompt, pipe
-                    )
-
-
                     reward = row["reward"]
                     cumulative_reward += reward
                     all_rows.append({
@@ -200,13 +189,10 @@ def simulate_participant_by_block(timeline_df, pipe, participant_id, model, toke
                         "model_choice": model_choice,
                         "reward": reward,
                         "cumulative_reward": cumulative_reward,
-                        #"logits": logits_list,
-                        #"probs": probs_list,
-                        #"pred_token_id": pred_token_id,
                         "log_likelihood": log_likelihood,
                         "top2_tokens": top2_tokens
                     })
-                print(f"Trial {trial}: Human {human_choice}, Model {model_choice}, LL:{log_likelihood}")
+                #print(f"Trial {trial}: Human {human_choice}, Model {model_choice}, LL:{log_likelihood}")
 
     print(f"✅ Simulated participant {participant_id}.")
     return pd.DataFrame(all_rows)

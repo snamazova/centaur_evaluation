@@ -11,7 +11,7 @@ import gc
 
 DATA_IN_ = 'data/in/timeline_structure.csv'
 
-MODEL = 'llama-70B'
+MODEL = 'llama-8B'
 DATA_FOLDER_OUT = f'data/out/{MODEL}/singles'
 
 def generate_seeds(num_seeds=20, seed=42):
@@ -280,6 +280,12 @@ def main():
     timeline = pd.read_csv(DATA_IN_)
     participant_ids = timeline['participant_id'].unique()
 
+            # Initialize new model for each seed
+    model,tokenizer = get_models.get_model_no_pipe(MODEL)
+    model._past = None  # Reset past states if necessary
+    torch.cuda.empty_cache()  # Clear GPU memory again
+    pipe=create_text_generation_pipeline(model,tokenizer,max_new_tokens=1)
+
     # Run simulation for each seed
     for participant_id in participant_ids:
         # Set output path for this participant
@@ -303,13 +309,6 @@ def main():
 
         seed_id= seeds[int(participant_id - 1)]
         fix_seed(seed_id)
-
-        # Initialize new model for each seed
-        model,tokenizer = get_models.get_model_no_pipe(MODEL)
-        model._past = None  # Reset past states if necessary
-        torch.cuda.empty_cache()  # Clear GPU memory again
-
-        pipe=create_text_generation_pipeline(model,tokenizer,max_new_tokens=1)
         # Run simulation
         # Run participant simulation
         participant_data = timeline[timeline['participant_id'] == participant_id]
@@ -319,7 +318,6 @@ def main():
 
 
         # Cleanup: delete model and clear memory
-        del model, tokenizer, pipe
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
         gc.collect()

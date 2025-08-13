@@ -8,8 +8,8 @@ import os
 import gc
 
 
-MODEL = 'centaur-8B'
-DATA_FOLDER_OUT = f'data/out/{MODEL}_re/singles'
+MODEL = 'centaur-70B'
+DATA_FOLDER_OUT = f'data/out/{MODEL}/singles'
 
 def generate_seeds(num_seeds=20, seed=42):
     """Generates a list of random seeds.
@@ -70,7 +70,6 @@ def format_past_trials(past_trials: list) -> str:
 def build_slot_prompt(current_trial: int, past_trials: list, total_trials: int) -> str:
     """Builds the prompt for the current trial with past trial data."""
     recent_trials = past_trials
-
     prompt = (
               "In this task, you have to repeatedly choose between two slot machines labeled U and P.\n"
               "You can choose a slot machine by pressing its corresponding key."
@@ -142,7 +141,7 @@ def generate(prompt: str, pipe: transformers.pipeline) -> str:
     """
     return pipe(prompt)[0]['generated_text'][len(prompt):]
 
-def simulate_participant(timeline, model, tokenizer, pipe):
+def simulate_participant(timeline:list,pipe:transformers.pipeline) -> pd.DataFrame:
     """Simulates a participant with log-likelihood tracking"""
     history = []
     cumulative_reward = 0
@@ -193,6 +192,11 @@ def main():
 
     seeds = generate_seeds(num_seeds=32)
     timeline = generate_timeline(num_trials=100)
+    # Initialize new model for each seed
+    model,tokenizer = get_models.get_model_no_pipe(MODEL)
+    model._past = None  # Reset past states if necessary
+    torch.cuda.empty_cache()  # Clear GPU memory again
+    pipe=create_text_generation_pipeline(model,tokenizer,max_new_tokens=1)
     # Run simulation for each seed
     for run_id, seed in enumerate(seeds):
         out_path = f'{DATA_FOLDER_OUT}/participant_' + str(seed) + '.csv'
@@ -200,21 +204,11 @@ def main():
         torch.cuda.empty_cache()
         fix_seed(seed)  # Ensure reproducibility
         torch.cuda.empty_cache()  # Clear GPU memory before loading model
-
-        # Initialize new model for each seed
-        model,tokenizer = get_models.get_model_no_pipe(MODEL)
-        model._past = None  # Reset past states if necessary
-        torch.cuda.empty_cache()  # Clear GPU memory again
-
-        pipe=create_text_generation_pipeline(model,tokenizer,max_new_tokens=1)
         # Run simulation
-        history = simulate_participant(timeline, model, tokenizer, pipe)
+        history = simulate_participant(timeline,pipe)
         # Save results
         history.to_csv(out_path, index=False)
-
-
         # Cleanup: delete model and clear memory
-        del model
         gc.collect()
         torch.cuda.empty_cache()
 

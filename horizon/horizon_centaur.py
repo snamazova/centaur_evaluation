@@ -11,7 +11,7 @@ import gc
 
 DATA_IN_ = 'data/in/timeline_structure.csv'
 
-MODEL = 'centaur-8B'
+MODEL = 'centaur-70B'
 DATA_FOLDER_OUT = f'data/out/{MODEL}/singles'
 
 def generate_seeds(num_seeds=20, seed=42):
