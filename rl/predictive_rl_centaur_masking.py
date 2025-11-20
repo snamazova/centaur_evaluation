@@ -10,7 +10,7 @@ import os
 
 DATA_IN_TEST = 'data/in/test_data.csv'
 
-MODEL = 'centaur-8B'
+MODEL = 'centaur-70B'
 DATA_FOLDER_OUT = f'data/out/predictive_masking_with_prompt/{MODEL}/singles'
 
 def generate_seeds(num_seeds=20, seed=42):
@@ -274,8 +274,9 @@ def main():
 
         # Run simulation with model and tokenizer passed
         model_data = timeline[timeline['model_id'] == model_id]
-        result = simulate_participant(model_data, model, tokenizer, pipe, letter_token_ids)
-        result.to_csv(out_path, index=False)
+        result_df,masking_df = simulate_participant(model_data, model, tokenizer, pipe, letter_token_ids,save_masking=True, model_id=model_id)
+        result_df.to_csv(out_path, index=False)
+        masking_df.to_csv(f'{DATA_FOLDER_OUT}/masking_model_' + str(model_id) + '.csv', index=False)
 
 
 if __name__ == "__main__":
